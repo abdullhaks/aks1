@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color:  #efefef;
+}
+
+.navigationbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 5px 1%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo{
+    width: 40px;
+}
+.navleft{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    float: left;
+
+}
+.searchbar img{
+    width: 15px;
+    
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 235, 235);
+    margin-left: 10px;
+    width: 245px;
+    height: 40px;
+    padding-left: 7px;
+    border-radius: 20px;
+
+}
+.src{
+    background: transparent;
+    border: none;
+    margin-left: 5px;
+    font-size:16px ;
+    outline: none;
+}
+.navcenter{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    
+    
+}
+.home{
+    display: flex;
+    align-items: center;
+    width: 16%;
+    background-color: #ffffff;
+}
+.homeicon{
+    width: 40px;
+    margin-left: 35px;
+    cursor: pointer;
+
+}
+.vidio{
+    display: flex;
+    align-items: center;
+    width: 16%;
+    background-color: #ffffff;
+}
+
+.vidioicon{
+    width: 25px;
+    margin-left: 41px;
+    cursor: pointer;
+}
+
+
+
+.marketplace{
+    display: flex;
+    align-items: center;
+    width: 16%;
+    background-color: #ffffff;
+}
+.marketicon{
+    width: 59px;
+    margin-left: 22px;
+    cursor: pointer;
+    
+}
+.group{
+    display: flex;
+    align-items: center;
+    width: 16%;
+    background-color:  #ffffff;
+}
+.groupicone{
+    width: 33px;
+    margin-left: 36px;
+    cursor: pointer;
+    
+}
+.gaming{
+    display: flex;
+    align-items: center;
+    width: 16%;
+    background-color:  #ffffff;
+}
+.gamingicon{
+    width: 32px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+.navright{
+    display: flex;
+    align-items: center;
+    width: 25%;
+  
+    float: left;
+    
+
+}
+.noti{
+    display: flex;
+    align-items: center;
+    background-color: #bdbdbd;
+    border-radius: 50%;
+    margin-left: 6px;
+
+   
+
+}
+.notiicon{
+    width: 38px;
+}
+
+.aksdp{
+    width: 40px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 6px;
+
+}
+.messege{
+    display: flex;
+    align-items: center;
+    background-color: #bdbdbd;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+.messegeicon{
+    width: 38px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: #bdbdbd;
+    border-radius: 50%;  
+    margin-left: 165px;
+}
+.menuicon{
+    width: 38px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.leftcont{
+    background: rgb(252, 251, 251);
+    flex-basis: 25%;
+    top: 70px;
+    align-self: flex-start;
+    height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+   
+   
+
+
+}
+.centercont{
+    background: transparent;
+    flex-basis:45%;
+    top: 70px;
+    height: 90vh;
+    overflow : hidden;
+    overflow-y: scroll;
+    align-self: flex-start;
+    padding: 10px 0;
+   
+
+}
+.rightcont{
+    background:  rgb(252, 251, 251);
+    flex-basis: 25%;
+    top: 70px;
+    align-self: flex-start;
+    height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+   
+
+}
+.menu,.messege,.noti,.dp a{
+    cursor: pointer;
+    
+}
+.dplink{
+    width: 40px;
+    border-radius: 50%;
+
+}
+.links{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    
+    
+}
+.links:hover{
+    
+    background-color: #ecebeb;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    
+    
+  
+    
+}
+
+
+
+
+
+.pageandprofile{
+    background: rgb(252, 251, 251);
+    flex-basis: 100%;
+    top: 70px;
+    align-self: flex-start;
+
+}
+.birthday{
+    background: rgb(252, 251, 251);
+    flex-basis: 100%;
+    top: 70px;
+    align-self: flex-start;
+    border-top: 1px solid gray;
+
+}
+.contacts{
+    background: rgb(252, 251, 251);
+    flex-basis: 100%;
+    top: 70px;
+    align-self: flex-start;
+    border-top: 1px solid gray;
+}
+.Groupcon{
+    background: rgb(252, 251, 251);
+    flex-basis: 100%;
+    top: 70px;
+    align-self: flex-start;
+    border-top: 1px solid gray;
+}
+.storygalary{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 280px;
+    background: transparent;
+    
+}
+.storyadd{
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+   
+    
+   
+}
+.stradd{
+    height: 100%;
+    width: 100%;
+    background-image: url(image/aksdp.jpg);
+    background-size: 400px;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+.story1{
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: aquamarine;
+
+}
+.str1{
+    height: 100%;
+    width: 100%;
+    background-image: url(image/story1.jpg);
+    background-size: 400px;
+    background-position: center;
+    border-radius: 10px;
+
+}
+.story2{
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+.str2{
+    height: 100%;
+    width: 100%;
+    background-image: url(image/story2.jpg);
+    background-size: 450px;
+    background-position: center;
+    border-radius: 10px;
+}
+.story3{
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: chartreuse;
+
+}
+.str3{
+    height: 100%;
+    width: 100%;
+    background-image: url(image/story3.jpg);
+    background-size: 400px;
+    background-position: center;
+    border-radius: 10px;
+}
+.bac{
+   background: transparent;
+    width:100%;
+    height: 80%;
+    border-radius: 10px 10px 0 0;
+   
+
+}
+.storyadd:hover{
+   
+    .stradd {zoom: 103%;
+    filter:opacity(90%);}
+    .white{
+        zoom: 97%;
+    }
+   
+    
+}
+.white{
+    width:100%;
+    height: 20%;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+
+}
+.story1:hover{
+   zoom: 103%;
+    filter:opacity(90%)
+}
+.story2:hover{
+    zoom: 103%;
+     filter:opacity(90%)
+ }
+ .story3:hover{
+    zoom: 103%;
+     filter:opacity(90%)
+ }
+ .mindbar{
+    width: 90%;
+    height: 100px;
+    margin: 10px 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-top: 10px;
+
+ }
+ .prof{
+    width: 20%;
+    float: left;
+ }
+ .mess{
+    width: 80%;
+    float: left;
+ }
+ .sec1{
+    width: 100%;
+   height: 50%;
+    padding-left: 10px;
+    
+ }
+.aksdp2{
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+}
+.inputmess{
+
+   
+    width: 100%;
+    float: left;
+    width: 100%;
+    margin-left: -38px;
+    margin-top: 2px;
+    border-radius: 21px;
+    border: none;
+    outline: none;
+    background-color: #eceaea;
+    height: 35px;
+    cursor: pointer;
+   
+
+}
+.inputmess:hover{
+    background-color: #d1cece; 
+}
+.sec2{
+    width: 466px;
+    height:50%;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.live{
+    width: 30%;
+    height: 80%;
+    background-color: rgb(231, 228, 228);
+    float: left;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.phovi{
+    width: 30%;
+    height: 80%;
+    background-color:  rgb(231, 228, 228);
+    float: left;
+    margin-left: 3.3%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.feelact{
+    width: 30%;
+    height: 80%;
+    background-color: rgb(231, 228, 228);
+    float: left;
+    margin-left: 3.3%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.post{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.mindlinks{
+    width: 30px;
+}
+live  :hover{
+   background-color: #ffffff;
+}
